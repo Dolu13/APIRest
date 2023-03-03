@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="pizzaWAR">
+    <output-path>$PROJECT_DIR$/../</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib" />
+          <element id="library" level="project" name="Java EE 6-Java EE 6" />
+          <element id="library" level="project" name="commons.codec" />
+        </element>
+        <element id="directory" name="classes">
+          <element id="module-output" name="pizzeriaV2" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
